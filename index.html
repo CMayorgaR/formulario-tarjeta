@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div class="header">
+            <h1>Payment from example</h1>
+        </div>
+
+        <div class="content">
+            <div class="content1">
+                <div id="reddiv">
+                    Some fields are missing
+                </div>
+            </div>
+            <div class="content2">
+                <div id="card">
+                    <label>Card#</label>
+                    <input type="number" placeholder="XXXXXXXXXXXXX">
+                </div>
+                <div id="cvc">
+                    <label>CVC</label>
+                    <input type="number" placeholder="XXX">
+                </div>
+                <div id="amount">
+                    <label>Amount</label>
+                    <input type="number">
+                </div>
+            </div>
+            <div class="content3">
+                <div id="name">
+                    <label>First Name</label>
+                    <input type="text">
+                </div>
+                <div id="lastname">
+                    <label>Last Name</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="content4">
+                <div id="city">
+                    <label>City</label>
+                    <input type="text">
+                </div>
+                <div id="state">
+                    <label>State</label>
+                    <select></select>
+                </div>
+                <div id="postal">
+                    <label>Postal Code</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="content5">
+                <div class="half">
+                    <label>We accept:</label>
+                    <div class="creditcards">
+                        <div>
+                            <input type="checkbox">
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <i class="fa-brands fa-cc-amex"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="half">
+                    <label>Message</label>
+                    <textarea rows="5" cols="40"></textarea>
+                    <p>Add any notes here.</p>
+
+                </div>
+            </div>
+            <div class="foot">
+                <button id="first">Cancel</button>
+                <button id="second">Send</button>
+            </div>
+        </div>
+        
+    </form>
+    <script src="https://kit.fontawesome.com/5c78ea6a5f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
